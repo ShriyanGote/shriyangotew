@@ -1,0 +1,49 @@
+[debug] [2023-04-07T02:56:33.503Z] ----------------------------------------------------------------------
+[debug] [2023-04-07T02:56:33.508Z] Command:       /opt/homebrew/Cellar/node/19.8.1/bin/node /opt/homebrew/bin/firebase init
+[debug] [2023-04-07T02:56:33.508Z] CLI Version:   11.25.3
+[debug] [2023-04-07T02:56:33.508Z] Platform:      darwin
+[debug] [2023-04-07T02:56:33.508Z] Node Version:  v19.8.1
+[debug] [2023-04-07T02:56:33.508Z] Time:          Thu Apr 06 2023 19:56:33 GMT-0700 (Pacific Daylight Time)
+[debug] [2023-04-07T02:56:33.508Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-07T02:56:33.545Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-07T02:56:33.545Z] > authorizing via signed-in user (shriyan.gote@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/shriyangote
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-04-07T02:56:55.858Z] Using project from CLI flag: shriyangote-77bef
+[debug] [2023-04-07T02:56:55.859Z] > refreshing access token with scopes: []
+[debug] [2023-04-07T02:56:55.861Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-04-07T02:56:55.861Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-07T02:56:56.011Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-04-07T02:56:56.011Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-07T02:56:56.055Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shriyangote-77bef [none]
+[debug] [2023-04-07T02:56:56.396Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shriyangote-77bef 200
+[debug] [2023-04-07T02:56:56.397Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shriyangote-77bef {"projectId":"shriyangote-77bef","projectNumber":"408028803107","displayName":"shriyangote","name":"projects/shriyangote-77bef","resources":{"hostingSite":"shriyangote-77bef"},"state":"ACTIVE","etag":"1_7fe3aa9d-edb9-4a5d-94bb-549e11dff4f3"}
+[info] i  Using project shriyangote-77bef (shriyangote) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
